@@ -25,6 +25,16 @@ class MyApp extends StatelessWidget {
         splash: Container(
           child: Column(
             children: [
+              const Text(
+                'Calculator',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const SizedBox(
+                height: 2,
+              ),
               Image.asset(
                 'assets/calculator.png',
                 width: 60,
